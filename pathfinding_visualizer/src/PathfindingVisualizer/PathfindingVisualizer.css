@@ -1,65 +1,51 @@
 .grid-container {
-    margin: 3% auto;
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  
-  .button-container {
-    margin-bottom: 20px; /* Add margin to shift the buttons above the bottom */
-  }
-  
-  button {
-    margin: 2px;
-    padding: 10px 20px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  button:hover {
-    background-color: #4caf50; /* Change to the desired hover color */
-    color: #ffffff;
-  }
-  
-  button.btn-danger {
-    background-color: #ff5722;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  
-  button.btn-primary {
-    background-color: #2196f3;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  
-  /* Adjust styles for different button sizes if needed */
-  button.btn-danger.small {
-    font-size: 14px;
-    padding: 5px 10px;
-  }
-  
-  button.btn-primary.small {
-    font-size: 14px;
-    padding: 5px 10px;
-  }
+  margin: 3% auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-  .navbar {
-    background-color: #007bff;
-    padding: 10px;
-  }
-  
-  .navbar-brand {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  
-  
-  
-  
-  
-  
-  
+.button-container {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 2px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.btn-danger {
+  background-color: #ff5722;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+button.btn-primary {
+  background-color: #2196f3;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+button.btn-danger.small {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+button.btn-primary.small {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.navbar {
+  background-color: #008cff;
+  padding: 8px;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+} 
